@@ -1,0 +1,239 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODIE</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="./../assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script src="https://kit.fontawesome.com/79a3b2cb41.js" crossorigin="anonymous"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <link rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <img src="chef-hat.png" class="rounded float-start col-sm-1 row" alt="...">
+              <a class="navbar-brand" href="#home">FOODIE</a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://in.search.yahoo.com/search?fr=mcafee&type=E210IN826G0&p=bootstrap">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Help
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#contact">Contact Us</a></li>
+                      <li><a class="dropdown-item" href="#services">About Us</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="menu/index.html">Menu</a>
+                  </li>
+                </ul>
+                <div id = "btn4">
+                  <a href="#" class="btn btn-info bg-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Login</a>
+                  <!-- <a href="#" class="btn btn-info bg-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" role="button">Register</a> -->
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section id="home"> 
+      <div id ="image">
+        <img src="chef (1).png" alt="chef logo">
+      </div> 
+      <div class="home_content">
+        <h1>WELCOME TO</h1>
+        <h1>FOODIE</h1>
+        <button class="btn3">Order Now</button>
+      </div>
+      
+    </section>
+    <section id= "services">
+        <h1 class="heading">FOODIE</h1>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eveniet aperiam eum sit nisi sapiente quas aspernatur dignissimos, amet tenetur harum saepe qui fuga distinctio velit consectetur, nobis ratione ullam sint quidem. Ut veritatis quod, pariatur explicabo minus reprehenderit hic eius enim ipsam molestiae?</p>
+    <div id="boxes">      
+        <div class="box" id="box1">
+        <img  src="breakfast.png" alt="icon">
+        <h1 class="offer">breakfast</h1>
+      </div>
+      <div class="box" id="box2">
+        <img src="cheers.png" alt="icon">
+        <h1 class ="offer">Special Offers</h1>
+      </div>
+      <div class="box" id="box3">
+        <img src="cocktail.png" alt="icon">
+        <h1 class="offer">Timings</h1>
+      </div>
+      <div class="box" id="box4">
+        <img  src="cp.png" alt="icon">
+        <h1 class="offer">Good Rest</h1>
+      </div>  
+    </div>
+    </section>
+    <section id="Latest_Offers">
+      <h1 class="latest_item">Latest Offers</h1>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-touch="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id = "logo" src="bg1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img id = "logo" src="bg6.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img id = "logo" src="bg7.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="togo">
+      <h1 class="con">FOODIE TO Go</h1>
+      <p class="co">Find a variety of great locals daily offerungs you can sample at our restraunt. Check the daily menu for the new gourmet gems. Gluten-free , low-carb option avialable</p>
+      
+      <span class ="pic"><ion-icon name="location"></ion-icon> Hanumna colony pal nagar D.M Road , Badaun </span>
+      <span class ="pic"><ion-icon name="mail"></ion-icon> www.Foodie.com</span>
+      <span class ="pic"><ion-icon name="call"></ion-icon> +91 6396500364 , 9554073173</span>
+    </div>
+    </section>
+
+ <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal -->
+<!-- </button> -->
+
+<!-- Modal -->
+<div class="modal modal1 fade .modal-dialog" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1> -->
+        
+        <button type="button" class="btn-close" id="close_register" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-box login" id="login_div">
+          <h2>Login</h2>
+          <form action="/login" method="post">
+              <div class="input-box">
+                  <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                  <input type="email" name= "mail" required maxlength="30">
+                  <label>E-mail</label>
+              </div>
+              <div class="input-box">
+                  <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                  <input type="Password" name= "pass" required maxlength="10">
+                  <label>Password</label>
+              </div>
+              <div class="remember-forgot">
+                  <label><input type="checkbox">Remember me</label>
+                  <a href="#">Forgot Password?</a>
+              </div>
+              <button type="submit" class="btn" id="loginbtn">login</button>
+              <div class = "login-register">
+                  <p>Don't have an account <a  data-bs-toggle="modal" data-bs-target="#exampleModal2" role="button"  id ="register-link" href="#">   Register</a></p>
+              </div>
+          </form>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+ <!-- Button trigger modal -->
+<!-- - <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  Launch demo modal 
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade .modal-dialog" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1> -->
+          
+          <button type="button" class="btn-close" id="close_login" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="form-box register" id="register_div">
+            <!-- <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span> -->
+            <h2>Register</h2>
+            <form action="/register" method="post">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" name="username" required maxlength="30">
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="email" required maxlength="30">
+                    <label>E-mail</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="Password" name="password" required maxlength="10">
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">agree to terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account<a data-bs-toggle="modal" data-bs-target="#exampleModal" role="button" id ="login-link"  href="#"> Login</a></p>
+                </div>
+            </form>
+        </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="/js/script.js"></script>
+</html>
+
